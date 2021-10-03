@@ -13,6 +13,7 @@ require "inc/config.inc.php";
 
 <body>
 	<h1>Ваша корзина</h1>
+	<p>Товаров в корзине <?= $count; ?></p>
 	<a href='catalog.php'>catalog</a>
 	<br>
 	<?php

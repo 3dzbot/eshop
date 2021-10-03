@@ -10,7 +10,8 @@
 	<title>Каталог товаров</title>
 </head>
 <body>
-<p>Товаров в <a href="basket.php">корзине</a>: <?= $count ?></p>
+<p>Товаров в <a href="basket.php">корзине</a>: <?= $count ?></p><br>
+<a href="./admin/orders.php">Заказы!</a><br>
 <table border="2" cellpadding="5" cellspacing="0" width="100%">
 <tr>
 	<th>Название</th>
